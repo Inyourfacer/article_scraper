@@ -1,4 +1,6 @@
 # article_scraper
+Gathering relevant data can be time consuming even with the great progress of tools like google to return pages and content matching your search terms. This script attempts to quickly rank and summarize the relevant pages that google delivers to you.
+
 This script works as a webpage scraper desinged to comb google search results and read the returned pages.
 It uses sereveral libraries and the GloVe vector data. The GloVe data can be downloaded here https://nlp.stanford.edu/projects/glove/
 It also requires a web-driver to work with Selenium. Currently it calls the Chrome driver but could be modified to use a different one.
